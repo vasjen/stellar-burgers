@@ -1,6 +1,5 @@
 import { FC, useMemo, useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { AppDispatch } from '../../services/store';
+import { useSelector, useDispatch, AppDispatch } from '../../services/store';
 import { useParams } from 'react-router-dom';
 import {
   getOrderByNumber,

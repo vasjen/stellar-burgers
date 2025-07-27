@@ -1,6 +1,5 @@
 import { FC, useMemo } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { AppDispatch } from '../../services/store';
+import { AppDispatch, useSelector, useDispatch } from '../../services/store';
 import { TConstructorIngredient, TOrder } from '@utils-types';
 import { BurgerConstructorUI } from '@ui';
 import {

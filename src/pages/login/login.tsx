@@ -1,6 +1,5 @@
 import { FC, FormEvent, useState } from 'react';
-import { useDispatch } from 'react-redux';
-import { AppDispatch } from '../../services/store';
+import { useDispatch, AppDispatch } from '../../services/store';
 import { loginUser } from '../../services/slices/userInfoSlice';
 import { LoginUI } from '@ui-pages';
 import { useForm } from '../../utils/hooks';

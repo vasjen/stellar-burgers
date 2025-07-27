@@ -1,6 +1,6 @@
 import { FC, memo, useMemo } from 'react';
 import { useLocation, Location } from 'react-router-dom';
-import { useSelector } from 'react-redux';
+import { useSelector } from '../../services/store';
 import { getIngredients } from '../../services/slices/ingredientsSlice';
 import { OrderCardProps } from './type';
 import { TIngredient } from '@utils-types';

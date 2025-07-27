@@ -24,8 +24,7 @@ import { fetchIngredients } from '../../services/slices/ingredientsSlice';
 import { fetchFeeds } from '../../services/slices/feedsSlice';
 import '../../index.css';
 import styles from './app.module.css';
-import { useDispatch } from 'react-redux';
-import { AppDispatch } from '../../services/store';
+import { useDispatch, AppDispatch } from '../../services/store';
 import { AppHeader } from '@components';
 import { getCookie } from '../../utils/cookie';
 

@@ -1,4 +1,4 @@
-import { useSelector } from 'react-redux';
+import { useSelector } from '../../services/store';
 import { getIsIngredientsLoading } from '../../services/slices/ingredientsSlice';
 import styles from './constructor-page.module.css';
 import { BurgerIngredients } from '../../components';

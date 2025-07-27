@@ -1,6 +1,5 @@
 import { FC, SyntheticEvent, useState } from 'react';
-import { useDispatch } from 'react-redux';
-import { AppDispatch } from '../../services/store';
+import { useDispatch, AppDispatch } from '../../services/store';
 import { registerUser } from '../../services/slices/userInfoSlice';
 import { RegisterUI } from '@ui-pages';
 import { TRegisterData } from '@api';

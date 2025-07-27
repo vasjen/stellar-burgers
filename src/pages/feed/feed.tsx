@@ -1,5 +1,4 @@
-import { useSelector, useDispatch } from 'react-redux';
-import { AppDispatch } from '../../services/store';
+import { useSelector, useDispatch, AppDispatch } from '../../services/store';
 import { fetchFeeds, getOrders } from '../../services/slices/feedsSlice';
 import { Preloader } from '@ui';
 import { FeedUI } from '@ui-pages';
